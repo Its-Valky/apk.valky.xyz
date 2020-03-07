@@ -11,7 +11,7 @@ $("input[name='clothes']").change(function(){
 
 
 // start web render
-$("input[name='submit']").on("click", function(){
+$("button[name='submit']").on("click", function(){
     
     var cloth = $('input[type=radio][name=clothes]:checked').prop('id');
     var model = cloth.replace("cloth_", "");
